@@ -1,0 +1,348 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+li {
+  list-style: none;
+}
+li > a {
+  text-decoration: none;
+  list-style: none;
+  color: white;
+}
+a {
+  text-decoration: none;
+}
+h5 > a {
+  text-decoration: none;
+}
+#header {
+  background-color: #e87722;
+  height: 67px;
+}
+.contact {
+  color: white;
+  float: left;
+  margin-top: 20px;
+  font-size: 0.8rem;
+}
+#icons {
+  display: flex;
+  justify-content: end;
+}
+#icons > li {
+  margin-top: 20px;
+}
+#icons > li > a {
+  color: white;
+  padding: 10px;
+}
+#icons > li > a:hover {
+  color: black;
+}
+#navbarheight {
+  height: 83px;
+}
+#iconimage {
+  float: left;
+  width: 180px;
+  margin-top: 12px;
+}
+.navbar {
+  display: flex;
+  margin-top: 24px;
+}
+.navbar > li > a {
+  color: black;
+  font-family: "Raleway", sans-serif;
+  font-size: 0.9rem;
+}
+#home {
+  color: #e87722;
+}
+.navbarc {
+  display: flex;
+  margin-top: 32px;
+  justify-content: end;
+}
+.circle {
+  margin-right: 20px;
+}
+.banner {
+  background-image: url(/assests/images/contents/banner1.jpg);
+  min-height: 100vh;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.when {
+  background-color: #e87722;
+  height: 160px;
+  display: flex;
+}
+.whens {
+  background-color: black;
+  height: 160px;
+  display: flex;
+}
+.Reach {
+  color: gainsboro;
+}
+#us {
+  /* font-size: calc(1.325rem + .9vw); */
+  margin-top: 125px;
+}
+#kite {
+  display: flex;
+}
+.circleicon {
+  color: #e87722;
+  font-size: 20px;
+  background-color: rgb(226, 226, 226);
+  padding-left: 15px;
+  padding-right: 15px;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  border-radius: 50%;
+}
+.tables {
+  background-color: rgb(233, 233, 233);
+  padding: 20px;
+}
+.tables > h1 {
+  /* font-size: calc(1.375rem + 1.5vw); */
+  border: none;
+}
+#name {
+  width: 100%;
+  border: none;
+  outline: none;
+  border: 1px solid #ced4da;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  padding-left: 8px;
+  border-radius: 3px;
+}
+#email {
+  width: 100%;
+  border: none;
+  outline: none;
+  border: 1px solid #ced4da;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  padding-left: 8px;
+  border-radius: 3px;
+  margin-top: 10px;
+}
+#number {
+  width: 100%;
+  border: none;
+  outline: none;
+  border: 1px solid #ced4da;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  padding-left: 8px;
+  border-radius: 3px;
+  margin-top: 10px;
+}
+#textarea {
+  border: none;
+  outline: none;
+  border: 1px solid #ced4da;
+  border-radius: 3px;
+  margin-top: 10px;
+  width: 100%;
+}
+.button {
+  width: 100%;
+  background-color: #e87722;
+  border: none;
+  color: white;
+  padding-top: 7px;
+  padding-bottom: 7px;
+  border-radius: 3px;
+  margin-top: 10px;
+}
+.borderline {
+  margin-top: 45px;
+  border-top: 2px solid #ced4da;
+}
+.kaddir {
+  /* font-size: calc(1.325rem + .9vw); */
+  margin-bottom: 0.5rem;
+  font-weight: 500;
+  line-height: 1.2;
+  text-align: center;
+}
+.kaddirtext {
+  text-align: center;
+  color: gray;
+}
+.view {
+  border: none;
+  border: 2px solid #e87722;
+  color: #e87722;
+  background-color: white;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  padding-left: 18px;
+  padding-right: 18px;
+  border-radius: 5px;
+}
+.view:hover {
+  color: white;
+  background-color: #e87722;
+}
+#lion {
+  background-color: #e87722;
+  /* height: 270px; */
+  min-height: 270px;
+}
+.numberfive {
+  font-size: 3rem;
+  margin-bottom: 0.5rem;
+  font-weight: 500;
+  line-height: 1.2;
+  color: white;
+}
+.numbericon {
+  color: white;
+  font-size: 50px;
+}
+.service-text {
+  color: rgb(189, 189, 189);
+}
+#banner-two {
+  background-image: url(/assests/images/contents/dark\ one.jpg);
+  /* height: 900px; */
+  height: auto;
+  width: 100%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+.butto {
+  color: #e87722;
+  width: 120px;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  padding-left: 4px;
+  padding-right: 4px;
+  border-radius: 3px;
+  border: 2px solid #e87722;
+}
+.butto:hover {
+  background-color: #e87722;
+  color: white;
+}
+#banner-three {
+  background-image: url(/assests/images/contents/CONTACT.png);
+  height: 500px;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.buttons {
+  background-color: #58b9da;
+  color: white;
+  width: 100px;
+  padding-left: 12px;
+  padding-right: 6px;
+  padding-top: 6px;
+  padding-bottom: 6px;
+  border-radius: 3px;
+}
+#kite {
+  width: 105px;
+  padding-left: 12px;
+  padding-right: 6px;
+  padding-top: 6px;
+  padding-bottom: 6px;
+  border-radius: 3px;
+  color: white;
+  border: 1px solid white;
+  transition: 0.6s;
+}
+#kite:hover {
+  background-color: white;
+  color: black;
+}
+#PIDOAM {
+  color: black;
+}
+#banner-four {
+  background-image: url(/assests/images/contents/Farnek-Hospitality-service-3-1.jpg);
+  height: 400px;
+  background-position: center;
+  background-size: cover;
+}
+.buttonsZ {
+  color: white;
+  background-color: #e87722;
+  width: 120px;
+  padding-top: 17px;
+  padding-bottom: 17px;
+  border-radius: 5px;
+}
+.cardone {
+  height: 500px;
+}
+#bodya {
+  background-color: #f7f7f7;
+  border: none;
+  border-top: 0.8px solid gainsboro;
+}
+#banner-five {
+  background-image: url(/assests/images/contents/Farnek-Security-28-1.jpg);
+  height: 400px;
+  background-position: center;
+  background-size: cover;
+}
+.buttonsZy {
+  color: white;
+  background-color: #e87722;
+  width: 120px;
+  padding-top: 17px;
+  padding-bottom: 17px;
+  padding-left: 15px;
+  border-radius: 5px;
+}
+#banner-seven {
+  background-color: #e87722;
+  height: 320px;
+}
+#banner-eight {
+  background-color: black;
+  min-height: 480px;
+}
+#navbarheight {
+  display: flex;
+}
+#up {
+  width: 45%;
+}
+#down {
+  width: 50%;
+}
+ #nav-two{
+    display: none;
+}
+@media screen and (max-width:1300px){
+    #up{
+        width: 60%;
+    }
+}
+@media screen and (max-width:992px){
+    #nav-two{
+        display: block;
+    }
+    #navbarheight{
+        display: none;
+    }   
+}
+@media screen and (max-width:320px){
+    #header{
+        display: none;
+    }
+}
